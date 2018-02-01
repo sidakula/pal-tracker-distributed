@@ -5,6 +5,6 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-sid.apps.chicken.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sid.apps.pikes.pal.pivotal.io
   services:
   - tracker-allocations-database
