@@ -4,7 +4,6 @@ applications:
   host: registration-pal-sid
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sid.apps.pikes.pal.pivotal.io
   services:
   - tracker-registration-database
+  - tracker-service-registry
