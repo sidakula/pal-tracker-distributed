@@ -1,8 +1,12 @@
 package test.pivotal.pal.tracker.allocations;
 
-import io.pivotal.pal.tracker.allocations.*;
+import io.pivotal.pal.tracker.allocations.AllocationController;
+import io.pivotal.pal.tracker.allocations.AllocationForm;
+import io.pivotal.pal.tracker.allocations.AllocationInfo;
+import io.pivotal.pal.tracker.allocations.ProjectInfo;
 import io.pivotal.pal.tracker.allocations.data.AllocationDataGateway;
 import io.pivotal.pal.tracker.allocations.data.AllocationRecord;
+import io.pivotal.pal.tracker.backlog.ProjectClient;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
